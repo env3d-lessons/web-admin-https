@@ -60,8 +60,16 @@ Follow these steps to enable HTTPS on your webserver.
 
 # Hand-in
 
-Clone the assignment repo into your ${HOME} directory, then execute pytest
-in the ${HOME}/${ASSIGNMENT_REPO}/ to check if you got everything correct.
+Clone the assignment repo into your `${HOME}` directory, then execute pytest
+in the `${HOME}/${ASSIGNMENT_REPO}/` to check if you got everything correct,
+as follows:
+
+```
+cd ~
+git clone ${ASSIGNMENT_REPO}
+cd ${ASSIGNMENT_REPO}
+pytest
+```
 
 When you are satisified, run the following commands to submit:
 
